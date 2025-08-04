@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hesapla</h1>
+
+        <label for="sayibir">1. Sayı: </label>
+        <input type="number" id="sayibir" placeholder="İlk sayıyı girin:" required>
+        
+        <label for="sayiiki">2. Sayı: </label>
+        <input type="number" id="sayiiki" placeholder="İkinci sayıyı girin:" required>
+
+        <div class="button_wrapper">
+            <button id="sum">+</button>
+            <button id="sub">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">÷</button>
+        </div>
+        <h1 id="sonuc"></h1>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
